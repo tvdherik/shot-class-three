@@ -3,10 +3,10 @@
 from setuptools import setup
 
 setup(
-	name = 'sc3',
-	version = '3.1',
+	name = 'shotclass',
+	version = '3.01',
 	description = 'shot-class-three analysis code',
 	author = 'Toby J. van den Herik',
 	url = 'github.com/...',
-	packages = ['sc3'],
+	packages = ['shotclass'],
 )
