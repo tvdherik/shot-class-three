@@ -8,7 +8,7 @@ class Channel():
     """
     An object that is a channel of data mapped against its own absolute time
     """
-    def __init__(self, channel_data, channel_absolute_time, interval_format = "fixed interval"):
+    def __init__(self, channel_stream, channel_absolute_time, interval_format = "fixed interval"):
         """
         Initialisation takes a set of data, a sampling rate
         """
@@ -22,7 +22,7 @@ class Channel():
         self.data = {
             "class_type"        : "Channel",
             "interval_format"   : interval_format,
-            "data"              : channel_data,
+            "stream"            : channel_stream,
             "time"              : channel_absolute_time
         }
 
