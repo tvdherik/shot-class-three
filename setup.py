@@ -8,5 +8,5 @@ setup(
 	description = 'shot-class-three analysis code',
 	author = 'Toby J. van den Herik',
 	url = 'github.com/...',
-	packages = ['src'],
+	packages = ['sc3'],
 )
