@@ -1,1 +1,5 @@
-import sc3.channels
+#__init__ header file
+import channels
+import analysis
+import reader
+import write
